@@ -6,10 +6,12 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route path="*" element={<Error/>}/>
-          <Route path="/" element={<Home/>}/>  
-        </Routes> 
+        <Nav/>
+          <Routes>
+            <Route path="*" element={<Error/>}/>
+            <Route path="/" element={<Home/>}/>  
+          </Routes>
+        <Footer/> {/*footer fora do routes*/}
       </BrowserRouter>
     </>
   )
