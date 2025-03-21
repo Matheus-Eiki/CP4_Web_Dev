@@ -8,11 +8,11 @@ const Nav =() => {
 
     return (
   
-    <section className="nav">
+      <div className='c-nav'> {/*container nav*/}
       <Link to="/Home" className="nLink">Home</Link>
        <Link to="/Produto" className="nLink">Produtos</Link>
       <Link to="/Sobre" className="nLink">Sobre</Link>
-    </section>
+      </div>
   
     )
   }
