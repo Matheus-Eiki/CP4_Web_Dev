@@ -4,10 +4,12 @@ import '../css/style.css'
 
 const Home = () => {
     return (
-      <section>
+      <section className='conteudo-home'>
   
           {/* Adicionando title e paragráfo */}
-          <h1>Título</h1>
+          <div className='c-title'>
+          <h1>CN Sports | Camisas de time</h1>
+          </div>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consequatur cupiditate deserunt provident, 
             dolore, ut harum quis quia, consequuntur recusandae dolorem atque accusamus ex facilis eveniet deleniti qui. Ratione,
              eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illo quos doloremque itaque similique temporibus
