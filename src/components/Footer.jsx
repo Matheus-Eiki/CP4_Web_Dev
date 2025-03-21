@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-      <section>
+      <footer className='rodape'>
           <h6>2025 | Todos os direitos reservados | Code Nexus</h6>
-      </section>
+      </footer>
     )
   }
   
