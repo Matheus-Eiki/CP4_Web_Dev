@@ -4,6 +4,8 @@ import Error from './routes/Error';
 import Home from './components/Home';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Produto from './components/Produto';
+import Sobre from './components/Sobre';
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Nav/>
           <Routes>
-            <Route path="/" element={<Home/>}/>
+            <Route path="/Home" element={<Home/>}/>
             <Route path="/Produto" element={<Produto/>}/>
             <Route path="/Sobre" element={<Sobre/>}/> 
             <Route path="*" element={<Error/>}/> 
