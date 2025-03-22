@@ -6,6 +6,15 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*criando variáveis de cor*/
+:root{
+    --letter-color: #FFFCF2;
+    --grey: #CCC5B9;
+    --mid-color: #403D39;
+    --dark-color: #252422;
+    --orange: #EB5E28;
+}
+
 
 /*nav*/
 .c-nav{
@@ -94,11 +103,28 @@
 .sobre h1{
     padding: 3%;
     color: rgb(46, 93, 77);
+    text-transform: uppercase;
+    margin-top: 5%;
 }
 
 .c-sobre p{
     color: rgb(77, 103, 94);
     text-align: justify;
+}
+
+.gif{
+    text-align: center;
+    margin: 0% 0% 5% 0%;
+    border-radius: 20px;
+    border: 5px solid rgb(73, 113, 110);
+    transition: all 0.3s ease-in-out;
+}
+
+.gif:hover{
+    transform: scale(1.30);
+    transition: all 0.3s ease-in-out;
+    border-radius: 40px;
+    border: 5px solid rgb(71, 190, 144);
 }
 
 
