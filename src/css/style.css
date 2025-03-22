@@ -15,27 +15,29 @@
     --orange: #EB5E28;
 }
 
+/*mudando background color das pages*/
+.corpo{
+    background-color: var(--letter-color);
+}
+
 
 /*nav*/
 .c-nav{
     display: flex;
-    border: 1px solid black;
     padding: 10px;
     justify-content: space-around;
-    background-color: rgb(124, 152, 152);
+    background-color: var(--orange);
 }
 
 .nLink{
-    color: rgb(254, 255, 254);
+    color: var(--letter-color);
     border-bottom: 3px solid transparent;
-    transition: transform 0.8s ease-in-out;
+    transition: transform 0.4s ease-in-out;
 }
 
 .nLink:hover, a.active{
-    border-bottom: 3px solid rgb(255, 255, 255);
-    transform: scale(1.05);
-    transition: all 0.8s;
-    color: rgb(40, 63, 55);
+    border-bottom: 3px solid var(--letter-color);
+    transform: scale(1.07);
 }
 
 
@@ -51,13 +53,14 @@
 
 .c-title h1{
     text-align: center;
-    color: rgb(38, 118, 91);
+    color: var(--mid-color);
     margin: 5% 0% 2% 0%;
+    text-transform: uppercase;
 }
 
 .conteudo-home p{
-    background-color: rgba(134, 169, 161, 0.61);
-    color: rgb(29, 113, 113);
+    background-color: var(--mid-color);
+    color: var(--orange);
     border: 4px dashed;
     border-radius: 2%;
     padding: 5px;
@@ -70,30 +73,50 @@
 }
 
 /*Produtos*/
+.produto h1{
+    text-align: center;
+    margin-top: 5%;
+    color: var(--orange);
+    text-transform: uppercase;
+}
+
 .c-produto{
     display: flex;
     justify-content: space-around;
     margin-top: 10%;
 }
 
+.prod{
+    text-align: center;
+}
+
+.prod h4{
+    color: var(--mid-color);
+    border: 2px solid var(--mid-color);
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.3s;
+}
+
+.prod h4:hover{
+    background-color: var(--dark-color);
+    color: var(--letter-color);
+    transition: all 0.3s;
+}
+
 .img{
     width: 200px;
-    border: 2px solid black;
+    border: 2px solid var(--orange);
     padding: 2px;
     border-radius: 5px;
     transition: 0.3s ease-in-out;
+    margin-top: 5%;
 }
 
 .img:hover{
-    background-color: rgb(76, 109, 109);
+    background-color: var(--orange);
     transition: 0.2s ease-in-out;
     transform: scale(1.05);
-}
-
-.produto h1{
-    text-align: center;
-    margin-top: 5%;
-    color: rgb(66, 109, 95);
 }
 
 
@@ -107,29 +130,35 @@
 
 .sobre h1{
     padding: 3%;
-    color: rgb(46, 93, 77);
+    color: var(--mid-color);
     text-transform: uppercase;
     margin-top: 5%;
+    transition: all 0.3s;
 }
 
 .c-sobre p{
-    color: rgb(77, 103, 94);
+    color: var(--mid-color);
     text-align: justify;
+}
+
+#title-sobre:hover{
+    color: var(--orange);
+    transition: all 0.3s ease-in-out;
 }
 
 .gif{
     text-align: center;
     margin: 0% 0% 5% 0%;
     border-radius: 20px;
-    border: 5px solid rgb(73, 113, 110);
+    border: 5px solid var(--mid-color);
     transition: all 0.3s ease-in-out;
 }
 
 .gif:hover{
-    transform: scale(1.30);
+    transform: scale(1.15);
     transition: all 0.3s ease-in-out;
     border-radius: 40px;
-    border: 5px solid rgb(71, 190, 144);
+    border: 5px solid var(--orange);
 }
 
 
@@ -137,11 +166,11 @@
 footer{
     display: flex;
     justify-content: center;
-    margin: 10% 0% 2% 0%;
-    background-color: rgb(114, 124, 121);
+    margin: 15% 0% 2% 0%;
+    background-color: var(--orange);
 }
 
 footer h6{
-    color: rgb(217, 251, 239);
+    color: var(--letter-color);
     padding: 20px;
 }
