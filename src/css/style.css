@@ -86,14 +86,19 @@
 /*Sobre*/
 .sobre{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 5%;
 }
 
 .sobre h1{
+    padding: 3%;
     color: rgb(46, 93, 77);
 }
 
 .c-sobre p{
     color: rgb(77, 103, 94);
+    text-align: justify;
 }
 
 
