@@ -19,7 +19,8 @@ const Home = () => {
                 consectetur adipisicing elit. Consectetur odio magni qui, ab neque sequi. Accusamus, necessitatibus quidem, molestiae assumenda
                  officiis obcaecati quia accusantium dignissimos, illum magni cumque! Eius, accusamus. Lorem ipsum dolor sit amet consectetur 
                  adipisicing elit. Fugit vero aliquid debitis in! Consectetur corrupti possimus quaerat dicta. Commodi odit amet quidem corrupti,
-                quo obcaecati sunt aut error
+                quo obcaecati sunt aut error.
+                <h2 className='Ti'>Ipsum dolor sit ame</h2>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consequatur cupiditate deserunt provident, 
             dolore, ut harum quis quia, consequuntur recusandae dolorem atque accusamus ex facilis eveniet deleniti qui. Ratione,
              eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illo quos doloremque itaque similique temporibus
@@ -40,6 +41,7 @@ const Home = () => {
                  officiis obcaecati quia accusantium dignissimos, illum magni cumque! Eius, accusamus. Lorem ipsum dolor sit amet consectetur 
                  adipisicing elit. Fugit vero aliquid debitis in! Consectetur corrupti possimus quaerat dicta. Commodi odit amet quidem corrupti,
                 quo obcaecati sunt aut error
+                <h2>Ipsum dolor sit ame</h2>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consequatur cupiditate deserunt provident, 
             dolore, ut harum quis quia, consequuntur recusandae dolorem atque accusamus ex facilis eveniet deleniti qui. Ratione,
              eligendi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus illo quos doloremque itaque similique temporibus

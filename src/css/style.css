@@ -52,8 +52,13 @@
     border: 4px dashed;
     border-radius: 2%;
     padding: 5px;
+    text-align: justify;
+    padding: 2%;
 }
 
+.conteudo-home h2{
+    padding: 1rem;
+}
 
 /*Produtos*/
 .c-produto{
