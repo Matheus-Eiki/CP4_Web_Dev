@@ -10,7 +10,7 @@ Este projeto foi desenvolvido com o intuito de criar um site utilizando conceito
 - [**Marcelo Affonso**](https://github.com/tenebres-cpu) - RM559790
 
 ## 🔗 Links Importantes
-- Link para o <a href="#">deploy no vercel</a>
+- Link para o <a href="https://cp-4-web-dev-plqn.vercel.app/">deploy no vercel</a>
 - Link do repositório do projeto: <a href='https://github.com/Matheus-Eiki/CP4_Web_Dev'>Clique aqui</a>
 - Paleta de cores: <a href='https://coolors.co/palette/fffcf2-ccc5b9-403d39-252422-eb5e28'>Clique aqui</a>
 
